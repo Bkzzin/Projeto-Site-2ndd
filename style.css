@@ -1,30 +1,30 @@
-     *{
-    margin : 0 px;
-    font-family:Arial, Helvetica, sans-serif;
-    }
+        *{
+        margin : 0 px;
+        font-family:Arial, Helvetica, sans-serif;
+        }
 
-    #titulosuperior{
-    margin-left:50 px;   
-    padding-top:150 px; 
-    font-size:75 px;
-    letter-spacing:-1.5 px;
-    }
+        #titulosuperior{
+        margin-left:50 px;   
+        padding-top:150 px; 
+        font-size:75 px;
+        letter-spacing:-1.5 px;
+        }
 
-    #textosuperior{
-    margin-left:50 px;
-    margin-top:35 px;
-    padding-bottom:150 px;
-    font-size:25 px;
-    letter-spacing:0 px;
-    }
-    
-    #menusuperior{
-        background-color:rgb(30, 29, 29) ;
-        color:orange ;
-    }
+        #textosuperior{
+        margin-left:50 px;
+        margin-top:35 px;
+        padding-bottom:150 px;
+        font-size:25 px;
+        letter-spacing:0 px;
+        }
+        
+        #menusuperior{
+            background-color:rgb(30, 29, 29) ;
+            color:orange ;
+        }
 
 
-#menuinformativo {
+        #menuinformativo {
             background-color:rgb(30, 29, 29) ;
             display: grid;
             grid-auto-flow: column;
@@ -49,4 +49,35 @@
         display: grid;
         grid-auto-flow: column;
         column:auto
+        }
+
+        image {
+            margin: 100px 25px 100px 100px;
+        }
+
+        #textoconteudo {
+            text-align: justify;
+            font-size: 40px;
+            font-weight: bolder;
+            margin: 260px 25px 50px 100px;
+        }
+
+        #image, #textoconteudo, #formulario {
+        visibility: hidden; 
+        }
+
+        #spanconteudo {
+            text-align: justify;
+            font-size: 24px;
+            font-weight: normal;
+        }
+
+        #formulario {
+            background-color:rgb(30, 29, 29);
+            text-align: center;
+        }
+        #tituloformulario {
+        font-size: 32px;
+        padding: 70px 70px 20px 70px;
+        color:orange; 
         }
