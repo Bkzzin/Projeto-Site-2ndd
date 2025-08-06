@@ -19,22 +19,34 @@
     }
     
     #menusuperior{
-        background-color: ;
-        color: ;
+        background-color:rgb(30, 29, 29) ;
+        color:orange ;
     }
 
 
 #menuinformativo {
-            background-color: ;
+            background-color:rgb(30, 29, 29) ;
             display: grid;
             grid-auto-flow: column;
             columns: auto;
         }
-        #textoinformativo{
+        #textoinformativo {
             display: grid;
             align-items: center;
             font-size: 40px ;
             font-weight: bolder;
             padding: 75px;
             margin: left 20px;
+
+        }
+        #spaninformativo {
+            font-size: 20px;
+            font-weight: normal;
+        }
+        
+        #menuconteudo {
+        background-color:rgb(30, 29, 29) ;
+        display: grid;
+        grid-auto-flow: column;
+        column:auto
         }
