@@ -82,3 +82,13 @@
         color:orange; 
         }
         
+        input {
+        width: 400px;
+        height: 60px;
+        background-color:rgb(30, 29, 29);
+        margin: 25px;
+        border: 1px;
+        border-radius: 10px;
+        padding-left: 10px;
+        }
+        
