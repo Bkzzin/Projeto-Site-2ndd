@@ -1,0 +1,1 @@
+window.sr =Scroll Reveal 
